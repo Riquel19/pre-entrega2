@@ -20,9 +20,8 @@
 }
 
 .btn.btn-primary {
-    color: #fff
+    color: #fff ;
 }
-
 .btn-square {
     width: 38px;
     height: 38px
@@ -169,4 +168,40 @@
 
 .bg-dark {
     background-color: #333 !important
+}
+
+.contenedor-galeria {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.galeria__img {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.galeria__img:hover {
+    filter: brightness(100%);
+}
+
+.nosotros {
+    color: #FEA116
+        
+}
+.nosotros {
+    text-align: center;
+    
+}
+.nosotros-texto {
+    font-size: 25px;
+    color: black;
+    padding: 100px;
 }
